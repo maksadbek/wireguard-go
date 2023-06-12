@@ -14,10 +14,10 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/maksadbek/wireguard-go/wireguard/conn"
-	"github.com/maksadbek/wireguard-go/wireguard/device"
-	"github.com/maksadbek/wireguard-go/wireguard/ipc"
-	"github.com/maksadbek/wireguard-go/wireguard/tun"
+	"github.com/maksadbek/wireguard-go/conn"
+	"github.com/maksadbek/wireguard-go/device"
+	"github.com/maksadbek/wireguard-go/ipc"
+	"github.com/maksadbek/wireguard-go/tun"
 	"golang.org/x/sys/unix"
 )
 
